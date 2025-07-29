@@ -44,23 +44,19 @@ model.fit(X_train_flattened, y_train, epochs=5)
 ```
 ## Results
 
-    The model successfully classifies most digits from the test dataset.
+The model successfully classifies most digits from the test dataset.
 
-    It's a basic but important step in understanding how machine learning models learn from visual data.
+It's a basic but important step in understanding how machine learning models learn from visual data.
 
 ## Learning Outcome
 
 This project was inspired by a YouTube tutorial and helped me build a foundational understanding of neural networks in computer vision. I now have a better grasp of model architecture, activation functions, and loss calculation.
 
 How to Run
-
-    Clone this repository
-
-    Install required libraries: tensorflow, matplotlib, numpy
-
-    Open the notebook: Number_Identification_Model.ipynb in Jupyter
-
-    Run all cells
+- Clone this repository
+- Install required libraries: tensorflow, matplotlib, numpy
+- Open the notebook: Number_Identification_Model.ipynb in Jupyter
+- Run all cells
 
 
-    Note: This project is for educational and learning purposes only. It serves as a foundation for understanding neural networks and image classification. For production use or more complex applications, consider advanced architectures and proper model validation
+Note: This project is for educational and learning purposes only. It serves as a foundation for understanding neural networks and image classification. For production use or more complex applications, consider advanced architectures and proper model validation
