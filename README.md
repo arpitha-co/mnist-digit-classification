@@ -32,25 +32,26 @@ model = keras.Sequential([
     keras.layers.Dense(10, input_shape=(784,), activation='sigmoid')
 ])
 ```
-**Loss Function:** sparse_categorical_crossentropy
-**Optimizer:** adam
-**Metrics:** Accuracy
+- Loss Function: sparse_categorical_crossentropy
+- Optimizer: adam
+- Metrics: Accuracy
 
-Training
+## Training
 
 The model is trained for 5 epochs using the Adam optimizer. After training, it reaches an accuracy of around 97% on the training data.
-
+```
 model.fit(X_train_flattened, y_train, epochs=5)
-
-Results
+```
+## Results
 
     The model successfully classifies most digits from the test dataset.
 
     It's a basic but important step in understanding how machine learning models learn from visual data.
 
-Learning Outcome
+## Learning Outcome
 
 This project was inspired by a YouTube tutorial and helped me build a foundational understanding of neural networks in computer vision. I now have a better grasp of model architecture, activation functions, and loss calculation.
+
 How to Run
 
     Clone this repository
@@ -61,14 +62,5 @@ How to Run
 
     Run all cells
 
-Future Improvements
-
-    Implement a convolutional neural network (CNN) for better accuracy
-
-    Add model evaluation on test data
-
-    Include prediction visualizations
-
-    Save and load trained model using model.save() and keras.models.load_model()
 
     Note: This project is for educational and learning purposes only. It serves as a foundation for understanding neural networks and image classification. For production use or more complex applications, consider advanced architectures and proper model validation
