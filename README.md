@@ -31,12 +31,10 @@ Each image is 28x28 pixels, and the dataset is already available in Keras via `k
 model = keras.Sequential([
     keras.layers.Dense(10, input_shape=(784,), activation='sigmoid')
 ])
-
-    Loss Function: sparse_categorical_crossentropy
-
-    Optimizer: adam
-
-    Metrics: Accuracy
+```
+**Loss Function:** sparse_categorical_crossentropy
+**Optimizer:** adam
+**Metrics:** Accuracy
 
 Training
 
